@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/hiramromero/Documents/CS303-Assignment 1/cmake-build-debug"
+			"value" : "/Users/hiramromero/Documents/CS303/CS303-Assignment 1/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/hiramromero/Documents/CS303-Assignment 1/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/hiramromero/Documents/CS303/CS303-Assignment 1/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/hiramromero/Documents/CS303-Assignment 1"
+			"value" : "/Users/hiramromero/Documents/CS303/CS303-Assignment 1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1127,7 +1127,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/hiramromero/Documents/CS303-Assignment 1/cmake-build-debug"
+			"value" : "/Users/hiramromero/Documents/CS303/CS303-Assignment 1/cmake-build-debug"
 		},
 		{
 			"name" : "CS303_Assignment_1_IS_TOP_LEVEL",
@@ -1151,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/hiramromero/Documents/CS303-Assignment 1"
+			"value" : "/Users/hiramromero/Documents/CS303/CS303-Assignment 1"
 		}
 	],
 	"kind" : "cache",
