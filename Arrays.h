@@ -1,13 +1,29 @@
-//
-// Created by Hiram Romero on 9/9/24.
-//
+// Hiram Romero
+// Assignment 1
+// Arrays.cpp
 
-#ifndef CS303_ASSIGNMENT_1_ARRAYS_H
-#define CS303_ASSIGNMENT_1_ARRAYS_H
+#ifndef ARRAYS_H
+#define ARRAYS_H
 
-// Function prototype for adding two integers
-// This declares the function `add` so that other files can use it
-int add(int a, int b);
+// Struct to hold the result of modifying a value
+struct ModifyIndex {
+    int oldValue;  // The old value before modification
+    int newValue;  // The new value after modification
+};
 
+// Function used to find the index of a number in the array
+int LocateIndex(const int array[], int size, int number);
 
-#endif // CS303_ASSIGNMENT_1_ARRAYS_H
+// Function that modifies the value at an index and returns the values
+ModifyIndex modifyValue(int array[], int size, int index, int newValue);
+
+// Function that prints arrays
+void printArray(const int array[], int size);
+
+// Function that adds a new integer to the end of the array
+bool addNewInt(int array[], int& size, int newValue, int maxSize);
+
+// Function that replaces a value at a specific index with 0 or remove it
+bool RemoveReplaceIndex(int array[], int& size, int index, bool remove);
+
+#endif
