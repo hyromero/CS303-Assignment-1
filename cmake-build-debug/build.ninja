@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_CS303_Assignment_1: phony || CMakeFiles/
 
 build CMakeFiles/CS303_Assignment_1.dir/main.cpp.o: CXX_COMPILER__CS303_Assignment_1_unscanned_Debug /Users/hiramromero/Documents/CS303/CS303-Assignment$ 1/main.cpp || cmake_object_order_depends_target_CS303_Assignment_1
   DEP_FILE = CMakeFiles/CS303_Assignment_1.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CS303_Assignment_1.dir
   OBJECT_FILE_DIR = CMakeFiles/CS303_Assignment_1.dir
   TARGET_COMPILE_PDB = CMakeFiles/CS303_Assignment_1.dir/
@@ -59,7 +59,7 @@ build CMakeFiles/CS303_Assignment_1.dir/main.cpp.o: CXX_COMPILER__CS303_Assignme
 
 build CMakeFiles/CS303_Assignment_1.dir/Arrays.cpp.o: CXX_COMPILER__CS303_Assignment_1_unscanned_Debug /Users/hiramromero/Documents/CS303/CS303-Assignment$ 1/Arrays.cpp || cmake_object_order_depends_target_CS303_Assignment_1
   DEP_FILE = CMakeFiles/CS303_Assignment_1.dir/Arrays.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CS303_Assignment_1.dir
   OBJECT_FILE_DIR = CMakeFiles/CS303_Assignment_1.dir
   TARGET_COMPILE_PDB = CMakeFiles/CS303_Assignment_1.dir/
@@ -74,7 +74,7 @@ build CMakeFiles/CS303_Assignment_1.dir/Arrays.cpp.o: CXX_COMPILER__CS303_Assign
 # Link the executable CS303_Assignment_1
 
 build CS303_Assignment_1: CXX_EXECUTABLE_LINKER__CS303_Assignment_1_Debug CMakeFiles/CS303_Assignment_1.dir/main.cpp.o CMakeFiles/CS303_Assignment_1.dir/Arrays.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/CS303_Assignment_1.dir
   POST_BUILD = :
   PRE_LINK = :
